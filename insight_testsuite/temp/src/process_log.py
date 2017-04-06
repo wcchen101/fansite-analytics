@@ -15,7 +15,8 @@ def main():
         Feature 4: Get the blocked list which contains the records of fail login
         of certain ip followed by 3 times failing login in 20s time window
     """
-
+    # print(parent_path)
+    # print(sys.argv[1][1:])
     input_file = open(sys.argv[1], 'r')
     hosts_file = open(sys.argv[2],'w')
     hours_file = open(sys.argv[3], 'w')
