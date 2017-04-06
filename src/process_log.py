@@ -17,7 +17,6 @@ def main():
         Feature 3: Get top 10 most frequently visited time in the next 60 mins
         Feature 4: Get the blocked list which contains the records of failing login
         of certain ip followed by 3 times failing login in certain time window
-
     """
     input_file = open(temp_path+ '/'+ 'log_input/'+'log.txt', 'r')
     blocks_file = open(temp_path + '/'+ 'log_output/' + 'blocked.txt', 'w')
