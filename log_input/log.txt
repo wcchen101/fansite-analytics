@@ -1,0 +1,2 @@
+To see the login file, please check the Insight Data Science Coding Challenge as following link:
+https://github.com/InsightDataScience/fansite-analytics-challenge/tree/master/log_input
